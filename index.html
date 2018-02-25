@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div id="bg">
+      <h1>Todays Weather</h1>
+      <form>
+        <select id="countries" onchange="weather()">
+          <option value="Stockholm">Sweden</option>
+          <option value="London">London</option>
+          <option value="New York">New York</option>
+          <option value="Manila">Philippines</option>
+        </select>
+      </form>
+      <h3 id="name"></h3>
+      <p id="coord"></p>
+      <p id="main"></p>
+      <p id="description"></p>
+      <p id="sys"></p>
+    </div>
+
+    <script src="./script.js" charset="utf-8">
+    </script>
+  </body>
+</html>

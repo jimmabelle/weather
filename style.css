@@ -1,0 +1,17 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0px;
+}
+
+#bg {
+  width: 100%;
+  font-size: 100%;
+  text-align: center;
+  min-height: 100vh; /* no white space bottom */
+  color: #fff;
+}
+
+div, h1, form, h3, p {
+  padding: 10px;
+}
