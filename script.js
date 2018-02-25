@@ -3,7 +3,7 @@ var weather = () => {
     var SelectCountry = document.getElementById("countries").value
 
     //fetch("http://api.openweathermap.org/data/2.5/weather?q=Stockholm,Sweden&units=metric&APPID=ada31c4dd9505b9deb20760e90c6552a")
-    fetch("http://api.openweathermap.org/data/2.5/weather?q=" + SelectCountry + "&units=metric&APPID=ada31c4dd9505b9deb20760e90c6552a")
+    fetch("https://api.openweathermap.org/data/2.5/weather?q=" + SelectCountry + "&units=metric&APPID=ada31c4dd9505b9deb20760e90c6552a")
     .then((response) => {
       return response.json()
       })
